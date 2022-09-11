@@ -12,12 +12,12 @@ st.sidebar.write('''There are 66 Companies listed at the Nairobi Securities Exch
 
 data = pd.read_csv(path, encoding="ISO-8859-1", low_memory=False)
 
-menu = ['Home', 'Trend Analysis', 'Contact']
+menu = ['Home', 'Trend Analysis', 'Contact' ]
 selection = st.sidebar.selectbox("Dashboard ", menu)
 
 if selection == 'Home':
     st.title('About Quoted Companies at NSE')
-    st.subheader('Who are we?')
+    st.subheader('Who Are We?')
     st.write('Quoted companies at NSE is a website that aims at giving you a price trend analysis for all '
              'the listed companies in order to help you make a sound investment decision. The data used is gathered'
              'from the Nairobi Securities Exchange daily trade prices. The price is determined as the average of the '
