@@ -32,7 +32,7 @@ if selection == 'Trend Analysis':
     st.header('Stock Price for the year 2020')
 
     menu2 = pd.unique(data['ticker'])
-    selection2 = st.sidebar.selectbox('Select Month', menu2)
+    selection2 = st.sidebar.selectbox('Select Company', menu2)
     graph_data = data[data['ticker'] == selection2]
     st.dataframe(graph_data)
 
