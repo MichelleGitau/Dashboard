@@ -1,1 +1,1 @@
-web: gunicorn nsedash:server
+web: gunicorn nsedash: server
