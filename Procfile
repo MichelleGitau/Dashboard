@@ -1,1 +1,1 @@
-web: gunicorn nsedash: server
+web: sh setup.sh && streamlit run nsedash.py

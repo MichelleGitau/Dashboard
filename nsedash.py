@@ -4,6 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 
+server = app.server
+
 st.set_page_config(layout="wide", initial_sidebar_state="auto", page_icon="⚡", page_title='Quoted Companies'
                    ' at NSE')
 path = ".\stockdata.csv"
