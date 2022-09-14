@@ -4,10 +4,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 
-
 st.set_page_config(layout="wide", initial_sidebar_state="auto", page_icon="⚡", page_title='Quoted Companies'
                    ' at NSE')
-path = ".\stockdata.csv"
+path = "./stockdata.csv"
 st.sidebar.header('Quoted Companies Trends')
 st.sidebar.write('''There are 66 Companies listed at the Nairobi Securities Exchange here in Kenya.''')
 
